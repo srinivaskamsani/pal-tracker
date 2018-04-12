@@ -3,3 +3,5 @@ applications:
 - name: pal-tracker
   path: build/libs/pal-tracker.jar
   host: jwks9-pal-tracker
+  services:
+      - tracker-database
